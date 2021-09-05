@@ -1,5 +1,6 @@
 # SQL_ODEV3
 **Patika SQL eğitimi kapsamındaki ödev3**
+-
 1._country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile sonlananları sıralayınız._
 ```sql
 SELECT country FROM country WHERE country LIKE 'A%a';
